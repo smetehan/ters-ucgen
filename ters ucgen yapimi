@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class project {
+    public static void main(String[] args) {
+        Scanner inp = new Scanner(System.in);
+        int n;
+
+        System.out.print("Elmas Icin sayi giriniz :");
+        n = inp.nextInt();
+        for (int l = n; l >1 ; l--) {
+
+            for (int g = 1; g <= (n - l + 1); g++) {
+                System.out.print(" ");
+            }
+            for (int h = 1; h <= (2 * l - 3); h++) {
+                System.out.print("*");
+            }
+            System.out.println();
+
+        }
+
+} }
+
+
